@@ -1,16 +1,18 @@
 # 🏏 IPL Capstone Project
 
-An Exploratory Data Analysis (EDA) project on the Indian Premier League (IPL) dataset using **Python** and **Pandas**. This project analyzes IPL match data to discover trends, team performances, player statistics, and match insights through data analysis and visualization.
+## 📌 Project Overview
+
+The **IPL Capstone Project** is a data analysis project built using **Python** to explore and analyze Indian Premier League (IPL) match data. The project focuses on extracting meaningful insights from the dataset through data cleaning, manipulation, visualization, and statistical analysis.
 
 ---
 
-## 📌 Project Objectives
+## 🎯 Objectives
 
-- Perform data cleaning and preprocessing.
-- Explore IPL match statistics.
+- Clean and preprocess IPL match data.
+- Perform Exploratory Data Analysis (EDA).
 - Analyze team and player performances.
-- Identify important trends and patterns.
-- Create meaningful visualizations for better insights.
+- Identify winning trends and match statistics.
+- Visualize key insights using graphs and charts.
 
 ---
 
@@ -34,100 +36,101 @@ IPL-CAPSTONE-PROJECT/
 - NumPy
 - Matplotlib
 - Seaborn
-- Jupyter Notebook
+- Visual Studio Code
+- Git & GitHub
 
 ---
 
-## 📊 Analysis Performed
+## 📊 Key Analyses Performed
 
-This project answers several IPL-related questions, including:
+This project includes analysis such as:
 
-- Which team has won the most matches?
-- Which player won the most Player of the Match awards?
-- Which team won the most tosses?
-- Which team has the highest win percentage?
-- Which match had the highest winning margin?
-- Which bowler recorded the best bowling figures?
-- Which venue hosted the most IPL matches?
-- Season-wise IPL match analysis
-- Toss decision analysis
+- Team-wise match wins
+- Toss winner analysis
+- Match winner analysis
+- Highest winning margin
+- Best bowling performance
+- Venue-wise match distribution
 - Team performance comparison
-
----
-
-## 📈 Libraries Used
-
-```python
-import pandas as pd
-import numpy as np
-import matplotlib.pyplot as plt
-import seaborn as sns
-```
-
----
-
-## ▶️ How to Run the Project
-
-### 1. Clone the repository
-
-```bash
-git clone https://github.com/Anveshi-2711-hub/IPL-CAPSTONE-PROJECT.git
-```
-
-### 2. Open the project folder
-
-```bash
-cd IPL-CAPSTONE-PROJECT
-```
-
-### 3. Install the required libraries
-
-```bash
-pip install -r requirements.txt
-```
-
-### 4. Launch Jupyter Notebook
-
-```bash
-jupyter notebook
-```
-
-### 5. Open
-
-```
-IPL_Analysis.ipynb
-```
-
-and run all the cells.
+- Season-wise IPL insights
+- Player performance analysis
 
 ---
 
 ## 📁 Dataset
 
-- **Dataset Name:** IPL.csv
-- **Format:** CSV
-- **Description:** Contains IPL match information including teams, venues, toss results, match winners, scores, margins, and player statistics.
+**File:** `IPL.csv`
+
+The dataset contains IPL match information including:
+
+- Match ID
+- Match Date
+- Teams
+- Venue
+- Toss Winner
+- Toss Decision
+- First Innings Score
+- Second Innings Score
+- Match Winner
+- Winning Margin
+- Player of the Match
+- Best Bowling Figures
 
 ---
 
-## 🎯 Key Skills Demonstrated
+## 🚀 Getting Started
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/Anveshi-2711-hub/IPL-CAPSTONE-PROJECT.git
+```
+
+### 2. Navigate to the Project Folder
+
+```bash
+cd IPL-CAPSTONE-PROJECT
+```
+
+### 3. Install Dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+### 4. Open the Project
+
+Open the project in **Visual Studio Code** and run the analysis.
+
+---
+
+## 📦 Required Libraries
+
+- pandas
+- numpy
+- matplotlib
+- seaborn
+
+---
+
+## 💡 Skills Demonstrated
 
 - Data Cleaning
-- Data Manipulation using Pandas
+- Data Analysis
 - Exploratory Data Analysis (EDA)
 - Data Visualization
 - Statistical Analysis
-- Problem Solving
-- Git & GitHub
+- Python Programming
+- Version Control using Git & GitHub
 
 ---
 
-## 📌 Future Improvements
+## 📈 Future Enhancements
 
-- Build an interactive dashboard using Streamlit.
-- Add Power BI dashboard.
-- Perform predictive analysis using Machine Learning.
+- Build an interactive dashboard.
+- Add machine learning models for match prediction.
 - Create advanced visualizations.
+- Include player and team performance dashboards.
 
 ---
 
@@ -135,10 +138,10 @@ and run all the cells.
 
 **Anveshi Srivastava**
 
-GitHub: https://github.com/Anveshi-2711-hub
+GitHub: **https://github.com/Anveshi-2711-hub**
 
 ---
 
 ## ⭐ Support
 
-If you found this project helpful, consider giving it a ⭐ on GitHub.
+If you found this project useful, consider giving it a **⭐ Star** on GitHub.
