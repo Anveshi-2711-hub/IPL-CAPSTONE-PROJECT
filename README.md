@@ -1,23 +1,29 @@
 # 🏏 IPL Capstone Project
 
-## 📌 Project Overview
-
-This project is an Exploratory Data Analysis (EDA) of the Indian Premier League (IPL) dataset using Python. The objective is to analyze match statistics, player performances, team records, and various IPL trends through data analysis and visualization.
+An Exploratory Data Analysis (EDA) project on the Indian Premier League (IPL) dataset using **Python** and **Pandas**. This project analyzes IPL match data to discover trends, team performances, player statistics, and match insights through data analysis and visualization.
 
 ---
 
-## 🚀 Features
+## 📌 Project Objectives
 
-- Data Cleaning and Preprocessing
-- Exploratory Data Analysis (EDA)
-- Team Performance Analysis
-- Player Performance Analysis
-- Match Winning Analysis
-- Toss Analysis
-- Venue Analysis
-- Best Bowling Figures
-- Highest Winning Margins
-- Data Visualization using Matplotlib & Seaborn
+- Perform data cleaning and preprocessing.
+- Explore IPL match statistics.
+- Analyze team and player performances.
+- Identify important trends and patterns.
+- Create meaningful visualizations for better insights.
+
+---
+
+## 📂 Project Structure
+
+```
+IPL-CAPSTONE-PROJECT/
+│
+├── IPL.csv
+├── IPL_Analysis.ipynb
+├── README.md
+└── requirements.txt
+```
 
 ---
 
@@ -29,41 +35,27 @@ This project is an Exploratory Data Analysis (EDA) of the Indian Premier League 
 - Matplotlib
 - Seaborn
 - Jupyter Notebook
-- Visual Studio Code
-
----
-
-## 📂 Project Structure
-
-```
-IPL-CAPSTONE-PROJECT/
-│
-├── IPL.csv
-├── main.py
-├── IPL_Analysis.ipynb
-├── README.md
-└── requirements.txt
-```
 
 ---
 
 ## 📊 Analysis Performed
 
-Some of the questions answered in this project include:
+This project answers several IPL-related questions, including:
 
-- Which team has won the most IPL matches?
-- Which player has won the most Player of the Match awards?
-- Which team has won the highest number of tosses?
+- Which team has won the most matches?
+- Which player won the most Player of the Match awards?
+- Which team won the most tosses?
 - Which team has the highest win percentage?
-- Which bowler recorded the best bowling figures?
 - Which match had the highest winning margin?
-- Which stadium hosted the most matches?
-- Team-wise win distribution
-- Season-wise match analysis
+- Which bowler recorded the best bowling figures?
+- Which venue hosted the most IPL matches?
+- Season-wise IPL match analysis
+- Toss decision analysis
+- Team performance comparison
 
 ---
 
-## 📈 Libraries
+## 📈 Libraries Used
 
 ```python
 import pandas as pd
@@ -74,62 +66,68 @@ import seaborn as sns
 
 ---
 
-## ▶️ How to Run
+## ▶️ How to Run the Project
 
-1. Clone the repository
+### 1. Clone the repository
 
 ```bash
 git clone https://github.com/Anveshi-2711-hub/IPL-CAPSTONE-PROJECT.git
 ```
 
-2. Open the project folder
+### 2. Open the project folder
 
 ```bash
 cd IPL-CAPSTONE-PROJECT
 ```
 
-3. Install the required libraries
+### 3. Install the required libraries
 
 ```bash
-pip install pandas numpy matplotlib seaborn
+pip install -r requirements.txt
 ```
 
-4. Run
+### 4. Launch Jupyter Notebook
 
 ```bash
-python main.py
+jupyter notebook
 ```
 
-or open the Jupyter Notebook
+### 5. Open
 
-```bash
+```
 IPL_Analysis.ipynb
 ```
 
----
-
-## 📷 Sample Output
-
-- Team Performance Charts
-- Player Statistics
-- Winning Margin Analysis
-- Toss Decision Analysis
-- Bowling Performance Analysis
-- Venue Analysis
+and run all the cells.
 
 ---
 
-## 🎯 Learning Outcomes
+## 📁 Dataset
 
-Through this project, I learned:
+- **Dataset Name:** IPL.csv
+- **Format:** CSV
+- **Description:** Contains IPL match information including teams, venues, toss results, match winners, scores, margins, and player statistics.
+
+---
+
+## 🎯 Key Skills Demonstrated
 
 - Data Cleaning
 - Data Manipulation using Pandas
-- Exploratory Data Analysis
+- Exploratory Data Analysis (EDA)
 - Data Visualization
-- Statistical Insights
-- Git & GitHub Workflow
-- Project Documentation
+- Statistical Analysis
+- Problem Solving
+- Git & GitHub
+
+---
+
+## 📌 Future Improvements
+
+- Build an interactive dashboard using Streamlit.
+- Add Power BI dashboard.
+- Perform predictive analysis using Machine Learning.
+- Create advanced visualizations.
 
 ---
 
@@ -141,4 +139,6 @@ GitHub: https://github.com/Anveshi-2711-hub
 
 ---
 
-## ⭐ If you found this project useful, don't forget to Star ⭐ the repository.
+## ⭐ Support
+
+If you found this project helpful, consider giving it a ⭐ on GitHub.
